@@ -1,0 +1,144 @@
+*{
+    font-family:微軟正黑體;  
+  }
+  
+  body{
+              background-image: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002104/img/zh-tw/a0002104_main.jpg?20210212121114&q=80&rw=750&rh=536");
+              background-repeat: no-repeat;
+              width: 100%;
+              height: 100%;
+              background-size: 2000px;
+          }
+  
+  #username, #password, h3, #fullname, #comfirm_password,#username2, #password2{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    color: #df5334;
+  }
+  
+  h5{
+    margin: 20px;
+    color: #a3a2a3;
+  }
+  
+  h5:hover{
+    color: black;
+  }
+  
+  #container1, #container2{
+    margin: 50px;
+    padding: 10px;
+    width: 230px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 10px solid #df5334;
+    box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+    
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center;  
+  }
+  h1{
+    text-align: center;
+  }
+  .system_name{
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center; 
+  }
+  
+  .submit{
+    color: white;  
+    background: #df5334;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+  }
+  
+  .submit:hover{
+    background: #db6937;
+  }
+  
+  #container2{
+    visibility: hidden;   /*剛開始消失*/
+    height: 350px;
+  }
+  
+  
+  #copyright{
+    text-align: center;
+    color: #a3a2a3;
+    margin: -200px 0px 0px 0px;
+    font-size: 14px;
+  }
+  
+  input{
+    padding: 5px;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 5px;
+  }
+  .helpcard{
+    width: 200px;
+    position: absolute;
+    top:550px;
+    left:500px;
+    border: 10px navy solid;
+  }
+  .dismisscard{
+   width: 200px;
+   position: absolute;
+    top:550px;
+    left:900px;
+    border:10px aqua solid;
+  }
+  .text{
+    position: absolute;
+    color:yellow;
+    top:450px;
+    left:940px;
+    font-size: 50px;
+    border: 5px black solid;
+  }
+  .text1{
+    position: absolute;
+    color:orangered;
+    top:450px;
+    left:540px;
+    font-size: 50px;
+    border: 5px black solid;
+  }
+  .start{
+    position: absolute;
+    left: 700px;
+     top:300px;
+     width:140px;height:50px;color:navy ; 
+              
+  }
+   .login1{
+   position: absolute;
+  left: 1350px;
+  top:10px;
+  width:140px;
+  height:50px;
+  color:navy ; 
+  
+          }
+  .login2{
+    border: 5px,aqua,solid;
+  }
+  .video{
+    position: absolute;
+    left: 1200px;
+    top:10px;
+    width:140px;height:50px;color:navy ; 
+  }
